@@ -89,3 +89,45 @@ button:hover{
 #opening button:hover{
     transform:scale(1.1);
 }
+/* Mobile Responsive Design */
+@media screen and (max-width: 768px) {
+
+    body {
+        padding: 10px;
+        overflow-x: hidden;
+    }
+
+    #mainContent {
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .memories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button {
+        width: 90%;
+        max-width: 300px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
